@@ -15,6 +15,7 @@ public class Screen extends JPanel implements ActionListener{
     public SpriteManager spriteManager;
     public SpriteComputer spriteComputer;
     //public Collision collision;
+    //lol
     boolean bl = false;
 
 
@@ -69,7 +70,7 @@ public class Screen extends JPanel implements ActionListener{
         new Thread((Runnable) t1).start();
     }
 
-    public boolean getBl(boolean bl){return this.bl = bl;}
+
 
     public void actionPerformed(ActionEvent e) {
 
